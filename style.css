@@ -1,0 +1,730 @@
+*{
+    text-align: center;
+}
+section{
+    width: 80%;
+    height: 150px;
+    /* border: 2px solid gray; */
+    display: inline-flex;
+}
+.rect{
+    width: 20%;
+    height: 80%;
+    background: gray;
+    margin: 12px;
+    display: inline-flex;
+}
+.skpo{
+    width: 10px;
+    height: 80%;
+    background: black;
+    transform: skew(-30deg);
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.skne{
+    width: 10px;
+    height: 80%;
+    background: black;
+    transform: skew(30deg);
+    position: relative;
+    top: 10%;
+    left: 49%;
+}
+.re{
+    width: 75px;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: 55%;
+    right: 88.5%;
+}
+.str{
+    width: 9px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+.r{
+    width: 50px;
+    height: 39%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.inr{
+    width: 80%;
+    height: 80%;
+    background: gray;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.rr{
+    width: 51px;
+    height: 41%;
+    background: black;
+    position: relative;
+    top: 49%;
+    left: 2%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.c{
+    width: 10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.curv{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 9%;
+    left: 27%;
+    border-bottom-left-radius: 50px;
+}
+.currv{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 83%;
+    left: -13%;
+    border-top-left-radius: 50px;
+}
+.d{
+    height: 80%;
+    width: 50%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.dd{
+    height: 80%;
+    width: 80%;
+    background: gray;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.on{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 45%;
+    left: -4%;
+    
+}
+.currvv{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 82.5%;
+    left: -37%;
+    border-top-left-radius: 50px;
+}
+.f{
+    width: 10px;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    background: black;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.ff{
+    width: 45%;
+    height: 10px;
+    position: relative;
+    top: 9%;
+    left: 15%;
+    background: black;
+    /* border-top-right-radius: 50px; */
+    border-bottom-left-radius: 50px;
+}
+.fff{
+    width: 45%;
+    height: 10px;
+    position: relative;
+    top: 45%;
+    left: -30%;
+    background: black;
+    /* border-top-right-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+}
+.cg{
+    width: 10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.curvg{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 9%;
+    left: 27%;
+    border-bottom-left-radius: 50px;
+}
+.currvg{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 83%;
+    left: -10%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.g{
+    width: 9px;
+    height: 40px;
+    background: black;
+    position: relative;
+    top: 55%;
+    left: -14%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.gg{
+    width: 40px;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 53%;
+    left: -33.5%;
+    border-bottom-right-radius: 50px;
+}
+.sttr{
+    width: 9px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.sttrr{
+    width: 9px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 60%;
+}
+.stl{
+    width: 40%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 45%;
+    left: 15%;
+}
+.i{
+    width: 50%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 25%;
+
+}
+.ii{
+    width: 10px;
+    height: 60%;
+    background: black;
+    position: relative;
+    top: 20%;
+    left: -3%;
+
+}
+.iii{
+    width: 50%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 83%;
+    left: -28%;
+
+}
+.j{
+    width:10px;
+    height: 70%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 60%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.jj{
+    width: 20%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    border-bottom-right-radius: 50px;
+}
+.jjj{
+    width: 30%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 73%;
+    left: 9%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.jjjj{
+    width: 9px;
+    height: 17px;
+    background: black;
+    position: relative;
+    top: 65%;
+    left: -21%;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
+    border-bottom-right-radius: 50px;
+}
+.k{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+   
+}
+.kk{
+    width:15px;
+    height: 40%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: skew(-50deg)
+   
+}
+.kkk{
+    width:15px;
+    height: 40%;
+    background: black;
+    position: relative;
+    top: 50%;
+    left: 23%;
+    transform: skew(50deg)
+   
+}
+.l{
+    width:55%;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: 83%;
+    left: 15%;
+
+   
+}
+.m{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    /* border-top-right-radius: 50px; */
+
+
+}
+.mm{
+    width:10px;
+    height: 60%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: skew(30deg)
+    /* border-top-right-radius: 50px; */
+}
+.mmm{
+    width:10px;
+    height: 60%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 39%;
+    transform: skew(-30deg)
+    /* border-top-right-radius: 50px; */
+}
+.mmmm{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 48%;
+    /* border-top-right-radius: 50px; */
+
+
+}
+.n{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: skew(30deg)
+}
+.nn{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 40%;
+}
+.o{
+    width:50%;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    border-radius: 100%;
+}
+.oo{
+    width:40%;
+    height: 60%;
+    background:gray;
+    position: relative;
+    top: 20%;
+    left:-25%;
+    border-radius: 100%;
+}
+.p{
+    width: 10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;  
+}
+.pp{
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%; 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px; 
+}
+.ppp{
+    width: 40px;
+    height: 40px;
+    background: gray;
+    position: relative;
+    top: 7%;
+    left: 2%; 
+    border-radius: 100%; 
+    
+}
+.q{
+    width:50%;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    border-radius: 100%;  
+}
+.qq{
+    width:40%;
+    height: 60%;
+    background:gray;
+    position: relative;
+    top: 20%;
+    left:-25%;
+    border-radius: 100%;
+}
+.qqq{
+    width:10px;
+    height: 40%;
+    background: black;
+    position: relative;
+    top: 50%;
+    left: -40%;
+    transform: skew(30deg)
+}
+.r1{
+    width: 10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;  
+}
+.rr1{
+    width: 60px;
+    height: 60px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%; 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px; 
+}
+.rrr1{
+    width: 50px;
+    height: 50px;
+    background: gray;
+    position: relative;
+    top: 7%;
+    left: 2%; 
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+    
+}
+.r4{
+    width:10px;
+    height: 65%;
+    background: black;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    transform: skew(50deg) 
+}
+.sse{
+    width:60%;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    border-radius: 10px
+    
+}
+.insse{
+    width:90%;
+    height: 38%;
+    background: gray;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    /* border-bottom-right-radius: 50px; */
+}
+.innsse{
+    width:90%;
+    height: 38%;
+    background: gray;
+    position: relative;
+    top: 15%;
+    right: 0%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.t{
+    width: 50%;
+    height: 9px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+
+}
+.tt{
+    width: 10px;
+    height: 70%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left:-7%;
+
+}
+.you{
+    width:70%;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.yu{
+    width:85%;
+    height: 100%;
+    background: gray;
+    position: relative;
+    top: -5%;
+    left: 7%;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.v{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: skew(30deg)
+}
+.vv{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 55%;
+    transform: skew(-30deg)
+}
+.w{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    transform: skew(20deg)
+}
+.ww{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    transform: skew(-20deg)
+}
+.www{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    transform: skew(20deg)
+}
+.wwww{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 55%;
+    transform: skew(-20deg)
+}
+.xx{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 13%;
+    left: 45%;
+    transform: skew(40deg)
+}
+.xxx{
+    width:10px;
+    height: 80%;
+    background: black;
+    position: relative;
+    top: 13%;
+    left: 40%;
+    transform: skew(-40deg)
+}
+.y{
+    width:10px;
+    height: 40%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: skew(30deg)
+}
+.yy{
+    width:10px;
+    height: 40%;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    transform: skew(-30deg)
+}
+.ty{
+    width: 10px;
+    height: 45%;
+    background: black;
+    position: relative;
+    top: 50%;
+    left:25%;
+}
+.z{
+    width:45%;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    
+}
+.zz{
+    width:15px;
+    height: 70%;
+    background: black;
+    position: relative;
+    top: 13%;
+    left: -5%;
+    transform: skew(-45deg)
+}
+.zzz{
+    width:45%;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: 80%;
+    left: -31%;
+    
+}
